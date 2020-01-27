@@ -1,0 +1,57 @@
+#tableHeader{
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    padding: 10px;
+    opacity:0.8;
+    justify-content: space-evenly;
+    
+}
+
+td a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+td a:hover{
+    background-color: rgb(141, 141, 206);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    /* background: url("headerWave.png") no-repeat; */
+}
+
+body{
+    background-color: white;
+    background-image: url("/media/servicesBackground.jpg");
+    background-attachment: fixed;
+    background-position:  0px -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+    
+}
+
+img{
+    opacity: 1.0;
+}
+
+#pageHeader{
+    font-size: 38px;
+    font-family:cursive;
+}
+
+.whiteTxtBox{
+    background-color:whitesmoke;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+#one{
+    padding-bottom: 15px;
+}

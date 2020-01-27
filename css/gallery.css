@@ -1,0 +1,81 @@
+#tableHeader{
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    padding: 10px;
+    opacity:0.8;
+    justify-content: space-evenly;
+    
+}
+
+td a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+td a:hover{
+
+    background-color: rgb(141, 141, 206);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.5, 1.5);
+    /* background: url("headerWave.png") no-repeat; */
+}
+
+.header1{
+    padding-bottom: 25px;
+}
+
+.header{
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.space{
+    padding-top: 45px;
+}
+
+
+p {
+    font-size: 20px;
+    background-color:whitesmoke;
+    opacity: 0.8;
+}
+
+.whiteTxtBox{
+    background-color:whitesmoke;
+    opacity: 0.8;
+    border-radius: 10px;
+
+    padding: 2px;
+}
+
+body{
+    background-color: lightseagreen;
+    background-image: url("/media/videosPicture.jpg");
+    background-attachment: fixed;
+    background-position:  0px -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    
+}
+#pageHeader{
+    font-size: 38px;
+    font-family: cursive;
+    color: black;
+}
+
+.textBox{
+    background-size: cover;
+    background-position: bottom center;
+    height: max-content;
+    width: 60%;
+    padding: 2px 2px 2px 2px;
+    opacity: 0.6;
+}
